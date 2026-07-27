@@ -34,11 +34,9 @@ $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaom
 
 # Overlays
 PRODUCT_PACKAGES += \
+    aospaSystemUIOverlayDevice \
     ApertureOverlayDevice \
     FrameworkResOverlayDevice \
-    LineageDialerOverlayDevice \
-    LineageSettingsOverlayDevice \
-    LineageSystemUIOverlayDevice \
     SettingsOverlayDevice \
     SystemUIOverlayDevice
 
